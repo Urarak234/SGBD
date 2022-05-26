@@ -1,0 +1,29 @@
+-- this is an example
+group: nameOfTheNewGroup 
+
+Product = {
+model:number, maker:string, type:string
+3001, B, Printer
+1001, A, PC
+2001, C, Laptop
+2003, L, Laptop
+}
+PC = {
+model:number, speed:number, ram:number, hd:number, price:number
+1001, 300,1024, 250, 2114
+1002, 142, 512, 250, 955
+1003, 320, 2048, 160, 1049
+}
+Laptop = {
+model:number, speed:number, ram:number, hd:number, screen:number, price:number
+2001, 200, 1024, 250, 15, 2114
+2002, 173 512, 80, 24, 955
+2003, 183, 2048, 60, 20, 1049
+2004, 53, 1024, 80, 25, 600
+}
+Printer = {
+model:number, color:string, type:string, price:number
+3001, true, ink-jet, 99
+3002, false, laser, 239
+3003, true, laser, 899
+}
